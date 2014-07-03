@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dsf"
+    android:orientation="vertical"
+    android:textAlignment="center" >
+
+ <TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:textAlignment="center"
+    android:id="@+id/tamilreading" >
+
+    <TableRow android:background="@layout/my_table" >
+        
+        <TextView
+            android:background="@layout/my_table"
+            android:fontFamily="Arial"
+            android:padding="3dip"
+            android:text="Center"
+            android:textSize="35sp" />
+        
+    </TableRow>
+    
+    <TableRow android:background="@layout/my_table" >
+
+        <TextView
+            android:background="@layout/my_table"
+            android:fontFamily="Arial"
+            android:padding="3dip"
+            android:text="Tutor"
+            android:textSize="35sp" />
+
+    </TableRow>
+
+
+   <TableRow android:background="@layout/my_table" >
+
+        <TextView
+            android:background="@layout/my_table"
+            android:fontFamily="Arial"
+            android:padding="3dip"
+            android:text="Names"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip" />
+       \
+
+        <TextView
+            android:padding="3dip"
+            android:text="Tamil Reading"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <TableRow android:id="@+id/row">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip" />
+
+        <TextView
+            android:background="@layout/my_table"
+            android:padding="3dip"
+            android:text="Letters"
+            android:textSize="20sp"
+            android:layout_span="1" />
+
+        <TextView
+            android:background="@layout/my_table"
+            android:padding="3dip"
+            android:text="Simple Words"
+            android:textSize="20sp"
+            android:layout_span="1" />
+
+        <TextView
+            android:background="@layout/my_table"
+            android:padding="3dip"
+            android:text="Words"
+            android:textSize="20sp"
+            android:layout_span="1" />
+
+        <TextView
+            android:background="@layout/my_table"
+            android:padding="3dip"
+            android:text="Sentences"
+            android:textSize="20sp"
+            android:layout_span="1" />
+
+        <TextView
+            android:background="@layout/my_table"
+            android:padding="3dip"
+            android:text="Story"
+            android:textSize="20sp" 
+            android:layout_span="1"/>
+
+    </TableRow>
+    <TableRow>
+           <TextView
+            android:layout_height="match_parent"
+            android:background="@layout/my_table"   
+            android:paddingTop="3dp" />
+
+           <CheckBox
+               android:id="@+id/check"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:paddingTop="3dp"
+               android:background="@layout/my_table"
+               android:text="" />
+
+           <CheckBox
+               android:id="@+id/checkBox2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=""
+               android:background="@layout/my_table"
+               android:paddingTop="3dp" />
+
+           <CheckBox
+               android:id="@+id/checkBox3"
+               
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@layout/my_table"
+               android:text=""
+              
+               android:paddingTop="3dp" />
+
+           <CheckBox
+               android:id="@+id/checkBox4"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:paddingTop="3dp"
+               android:background="@layout/my_table"
+               android:text="" />
+
+           <CheckBox
+               android:id="@+id/checkBox5"
+               android:background="@layout/my_table"
+               android:paddingTop="3dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="" />
+        
+    </TableRow>
+
+   
+    
+         
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.54" >
+
+        <Button
+            android:id="@+id/add"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="37dp"
+            android:text="Add" />
+
+        <Button
+            android:id="@+id/button2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/add"
+            android:layout_below="@+id/add"
+            android:layout_marginTop="25dp"
+            android:text="Remove" />
+
+        <Button
+            android:id="@+id/Next2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="28dp"
+            android:layout_marginRight="47dp"
+            android:text="Next" />
+
+    </RelativeLayout>
+</TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dsf"
+    android:orientation="vertical"
+    android:textAlignment="center" >
+  
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*"
+    android:textAlignment="center" >
+
+    <TableRow android:background="@layout/my_table" >
+        
+        <TextView
+            android:background="@layout/my_table"
+            android:padding="3dip"
+            android:text="Center"
+            android:textSize="35sp" />
+        
+        
+    </TableRow>
+    <View android:layout_width="match_parent"
+                    android:layout_height="2dp" />
+    
+    <TableRow android:background="@layout/my_table" >
+
+        <TextView
+            android:padding="3dip"
+            android:background="@layout/my_table"
+            android:text="Tutor"
+            android:textSize="35sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:background="@layout/my_table"
+            android:padding="3dip"
+            android:text="Names"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip" />
+                <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip" />
+
+        <TextView
+           
+            android:padding="3dip"
+            android:text="Maths"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow android:background="@layout/my_table" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip" />
+
+        <TextView
+            android:background="@layout/my_table"
+            android:padding="3dip"
+            android:text="2D"
+            android:textSize="20sp" />
+
+        <TextView
+            android:background="@layout/my_table"  
+            android:padding="3dip"
+            android:text="2D+"
+            android:textSize="20sp" />
+
+        <TextView
+             android:background="@layout/my_table"
+            android:padding="3dip"
+            android:text="2D-"
+            android:textSize="20sp" />
+
+        <TextView
+             android:background="@layout/my_table"
+            android:padding="3dip"
+            android:text="3D"
+            android:textSize="20sp" />
+
+        <TextView
+             android:background="@layout/my_table"
+            android:padding="3dip"
+            android:text="2D*1D"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.54" >
+
+        <Button
+            android:id="@+id/button1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="42dp"
+            android:layout_marginRight="47dp"
+            android:text="Next" />
+
+    </RelativeLayout>
+</TableLayout>
+
+</LinearLayout>
